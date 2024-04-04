@@ -2,6 +2,8 @@
 This repository contains the code responsible for performing the simulation and generating of the systems developed for the "HIL Virtual Vehicle 5th Generation".
 specifically the ECU's corresponding to SYNC, IPC, HCM, PCM, DDCM-PDCM, and BCM
 
+![Virtual Vehicle](https://github.com/jvt-luz/Virtual_vehicle-BXHILMY22/assets/161875242/b92943d1-bdcf-43d4-adaa-1e9e711e831f)
+
 ***********************************************************
 IPC - Inter-Processor communication - panel               
 SYNC- multimedia center                                   

@@ -280,3 +280,15 @@ Motor Status:			1 -> The car is on;
 
 Keyfob Proximity:		1 -> Keyfob is inside the car;
 				0 -> Keyfob is outside the car;
+
+# BxHill_Simulation (How to run)
+
+This repository contains the code responsible for performing the simulation and generating test reports of the systems developed for the "HIL Virtual Vehicle 5th Generation".
+
+The development was carried out using the software simulink - Matlab. For each test requirement provided in the project description there is a stateflow responsible for performing this test.
+
+The inputs for starting the simulation are the requeriment number to be tested and the desired simulation time. If the objective is to perform more than one simulation, it is necessary to pass a vector with the number of each simulation in the desired order and then the desired simulation time for each simulation. The request numbers and their respective simulation time must be matched in position in their respective vectors.
+
+As output, the simulation generates a report in pdf containing the main signs associated with that test in graph form and a simulation status informing if the simulation obtained a positive or negative result.
+
+To start the simulation, it is necessary to run the mainScript.m file in the root stave of the integration repository [Main Repository](https://github.com/jvt-luz/Virtual_vehicle-BXHILMY22). 
